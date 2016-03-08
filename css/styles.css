@@ -10,8 +10,8 @@ body{
   width: 100%;
 }
 
-h1, h2{
-    text-align: center;
+.navbar-header .navbar-brand{
+    padding: 0;
 }
 
 section{
@@ -22,7 +22,6 @@ section{
 
 section > h2{
     position: relative;
-   /*width: 25%;*/
    top: -20px;
    float: right;
    padding-left: 10px;
@@ -49,36 +48,8 @@ section > h2{
      color:#fff;
  }
 
-@media (min-width: 992px){
-    .col-md-3{
+.border{
         float: left;
         border: 1px solid black;
-        padding: 2px;
+         padding: 2px;
     }
-    .col-md-3{
-        width: 33.33% ; 
-    }
-}
-
-@media  (min-width: 768px) and (max-width: 991px){
-    .col-sm-6, .col-sm-12{
-        float: left;
-        border: 1px solid black;
-    }
-    .col-sm-6{
-        width: 50%;
-    }
-    .col-sm-12{
-        width: 100%;
-    }
-}
-
-@media (max-width: 767px){
-    .col-xs-12{
-        float: left;
-        border: 1px solid black;
-    }
-    .col-xs-12{
-        width: 100%;
-    }
-}
