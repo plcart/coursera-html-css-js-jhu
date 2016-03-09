@@ -20,6 +20,10 @@ section{
      background-color: #d3d3d3;
 }
 
+.title{
+ margin-top: 60px;   
+}
+
 section > h2{
     position: relative;
    top: -20px;
